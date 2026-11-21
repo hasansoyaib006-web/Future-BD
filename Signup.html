@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Future BD Signup</title>
+<style>
+*{box-sizing:border-box}
+body{
+ background:#101010;color:white;
+ font-family:Arial;display:flex;
+ justify-content:center;align-items:center;
+ min-height:100vh;margin:0;padding:20px;
+}
+.card{
+ width:100%;max-width:380px;
+ background:#202020;padding:30px;
+ border:1px solid #f5c542;border-radius:15px;
+}
+h1{text-align:center;color:#f5c542}
+input{
+ width:100%;padding:14px;margin:10px 0;
+ background:#111;color:white;
+ border:1px solid #555;border-radius:8px;
+}
+button{
+ width:100%;padding:14px;
+ background:#f5c542;border:0;
+ border-radius:8px;font-weight:bold;
+}
+p{text-align:center;color:#bbb}
+a{color:#f5c542}
+</style>
+</head>
+<body>
+<div class="card">
+<h1>FUTURE BD</h1>
+<h2>Create Account</h2>
+<form id="signupForm">
+<input type="text" placeholder="Full Name" required>
+<input type="email" placeholder="Email Address" required>
+<input type="password" placeholder="Password" minlength="8" required>
+<input type="password" placeholder="Confirm Password" minlength="8" required>
+<button type="submit">Create Account</button>
+</form>
+<p>Already have an account?
+<a href="login.html">Login</a></p>
+</div>
+<script>
+document.getElementById("signupForm")
+.addEventListener("submit",function(e){
+ e.preventDefault();
+ alert("Backend signup will be connected next.");
+});
+</script>
+</body>
+</html>
