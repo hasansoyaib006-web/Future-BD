@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Future BD</title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;background:#101010;color:white;
+ font-family:Arial,sans-serif;
+}
+header{
+ padding:22px;background:#1b1b1b;
+ color:#f5c542;font-size:25px;
+ font-weight:bold;text-align:center;
+ border-bottom:1px solid #f5c542;
+}
+main{padding:20px;max-width:600px;margin:auto}
+.welcome{
+ background:#222;padding:25px;
+ border-radius:15px;margin-top:20px;
+}
+h2{color:#f5c542}
+.grid{
+ display:grid;grid-template-columns:1fr 1fr;
+ gap:12px;margin-top:20px;
+}
+.item{
+ background:#242424;padding:25px 10px;
+ border:1px solid #66521c;
+ border-radius:12px;text-align:center;
+}
+.balance{
+ margin-top:20px;background:#222;
+ padding:22px;border-radius:12px;
+}
+.amount{font-size:30px;color:#f5c542}
+footer{text-align:center;padding:25px;color:#aaa}
+</style>
+</head>
+<body>
+<header>FUTURE BD</header>
+<main>
+<section class="welcome">
+<h2>Welcome to Future BD</h2>
+<p>Complete Tasks & Earn Rewards</p>
+</section>
+<div class="balance">
+<p>Available Balance</p>
+<div class="amount">৳ 0.00</div>
+</div>
+<div class="grid">
+<div class="item">📅<p>Daily Tasks</p></div>
+<div class="item">▶️<p>Watch Ads</p></div>
+<div class="item">🌐<p>Website Visit</p></div>
+<div class="item">🎬<p>YouTube Tasks</p></div>
+<div class="item">💰<p>Withdraw</p></div>
+<div class="item">📜<p>History</p></div>
+</div>
+</main>
+<footer>© 2026 Future BD</footer>
+</body>
+</html>
